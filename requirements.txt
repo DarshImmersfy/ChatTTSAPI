@@ -1,0 +1,7 @@
+boto3
+chattts @ git+https://github.com/2noise/ChatTTS.git
+fastapi
+pydantic
+soundfile
+torch
+torchaudio
