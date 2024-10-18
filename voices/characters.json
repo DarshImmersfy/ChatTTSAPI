@@ -1,0 +1,152 @@
+{
+    "descriptions": [
+        {
+            "name": "Male-1",
+            "desc": "young voice"
+        },
+        {
+            "name": "Male-2",
+            "desc": "30-40 aged voice"
+        },
+        {
+            "name": "Male-3",
+            "desc": "Old strong voice, possibly narration"
+        },
+        {
+            "name": "Female-1",
+            "desc": "Young, soft voice"
+        },
+        {
+            "name": "Male-4",
+            "desc": "Not that young voice"
+        },
+        {
+            "name": "Male-5",
+            "desc": "Young, slightly annoying voice, might look good on villian"
+        },
+        {
+            "name": "Female-5",
+            "desc": "Middle age voice, possibly in her 30s"
+        },
+        {
+            "name": "Male-6",
+            "desc": "Soft calm voice, aged 30-40"
+        },
+        {
+            "name": "Male-7",
+            "desc": "Middle aged voice, little soft, can be used as narration"
+        },
+        {
+            "name": "Male-8",
+            "desc": "Young voice, little british accent"
+        },
+        {
+            "name": "Female-2",
+            "desc": "Young voice, kinda boring"
+        },
+        {
+            "name": "Male-9",
+            "desc": "Young voice, exciting tone"
+        },
+        {
+            "name": "Female-3",
+            "desc": "English authoritative tone"
+        },
+        {
+            "name": "Male-10",
+            "desc": "Calm strong tone"
+        },
+        {
+            "name": "Female-4",
+            "desc": "Middle aged strong tone"
+        },
+        {
+            "name": "Male-11",
+            "desc": "strong and calm tone"
+        },
+        {
+            "name": "Female-6",
+            "desc": "exciting yet calm tone"
+        },
+        {
+            "name": "Female-7",
+            "desc": "Old aged and strong voice"
+        },
+        {
+            "name": "Female-8",
+            "desc": "Young and annoying voice"
+        },
+        {
+            "name": "Male-12",
+            "desc": "Slow and calm voice, little robotic"
+        },
+        {
+            "name": "Female-9",
+            "desc": "Slow and calm voice, little english tone"
+        },
+        {
+            "name": "Male-13",
+            "desc": "Young, strong, slightly sharp voice"
+        },
+        {
+            "name": "Female-10",
+            "desc": "Middle aged voice"
+        },
+        {
+            "name": "Female-11",
+            "desc": "Very young voice, little annoying tone"
+        },
+        {
+            "name": "Narration-1",
+            "desc": "Clear and Sharp pronunciation, little robotic "
+        },
+        {
+            "name": "Narration-2",
+            "desc": "Clear and Sharp pronunciation, middle aged voice, same as Female-12"
+        },
+        {
+            "name": "Female-12",
+            "desc": "Clear and Sharp pronunciation, middle aged voice, same as Narration-2"
+        },
+        {
+            "name": "Male-14",
+            "desc": "Strong, calm voice, can be used for main character"
+        },
+        {
+            "name": "Female-13",
+            "desc": "Sharp voice, not very strong, sounds like someone from her 40s"
+        },
+        {
+            "name": "Female-14",
+            "desc": "Female news reporter"
+        },
+        {
+            "name": "Male-15",
+            "desc": "Old person, soft yet worrying in nature"
+        },
+        {
+            "name": "Male-16",
+            "desc": "Clear pronunciation"
+        },
+        {
+            "name": "Narration-3",
+            "desc": "Little High tone, makes you curious"
+        },
+        {
+            "name": "Narration-4",
+            "desc": "Calm and soft voice"
+        },
+        {
+            "name": "Female-15",
+            "desc": "high pitched yet soft voice, kinda like news reporter"
+        },
+        {
+            "name": "Male-17",
+            "desc": "Strong voice, could work as narration"
+        },
+        {
+            "name": "Male-18",
+            "desc": "Sounds like Bill from 11 labs, could work as narration"
+        }
+    ]
+}
