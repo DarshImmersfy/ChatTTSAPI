@@ -17,7 +17,7 @@ torch.set_float32_matmul_precision("high")
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-EMBEDDINGDIR = r"voices\embed"
+EMBEDDINGDIR = os.path.join("voices", "embed")
 
 
 class ChatTTSWrapper(abc.ABC):
