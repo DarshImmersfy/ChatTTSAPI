@@ -2,6 +2,9 @@ import io
 import json
 import logging
 import boto3
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Initialize S3 client
 s3_client = boto3.client('s3')
