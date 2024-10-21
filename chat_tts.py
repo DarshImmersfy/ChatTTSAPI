@@ -30,7 +30,14 @@ class ChatTTSWrapper(abc.ABC):
 
     def get_voice_embedding(self, voice: str = "Narration-1"):
         try:
-            with open(os.path.join(EMBEDDINGDIR, voice + ".txt")) as f:
+            if "female" in voice.lower():
+                folder_path = os.path.join(EMBEDDINGDIR, "Female", voice+".txt")
+            elif "male" in voice.lower():
+                folder_path = os.path.join(EMBEDDINGDIR, "Male", voice+".txt")
+            else:
+                folder_path = os.path.join(EMBEDDINGDIR, "Narration", voice+".txt")
+            
+            with open(folder_path) as f:
                 voice_embedding = f.readlines()[0].strip()
 
             return voice_embedding
