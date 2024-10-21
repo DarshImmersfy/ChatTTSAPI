@@ -72,7 +72,14 @@ async def generate_audio(request: TTSRequest):
 
         s3_links = []
         for filename, audio_file in zip(filenames, audio_files):
-            s3_links.append(savedata.upload_to_s3(request.bucket_name, audio_file, filename, request.s3_path, "audio/wav"))
+            s3_links.append({
+                filename: savedata.upload_to_s3(
+                    request.bucket_name, 
+                    audio_file, filename, 
+                    request.s3_path, 
+                    "audio/wav"
+                )
+            })
             logging.info(f"Successfully uploaded: {filename} to S3")
 
         logging.info(f"Audio generated successfully for voice: {request.voice}")
